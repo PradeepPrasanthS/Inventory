@@ -10,4 +10,19 @@
     <string name="login">Login</string>
     <string name="filter">filter</string>
     <string name="export">Export</string>
+    <string name="company">Company</string>
+    <string name="category">Category</string>
+    <string name="west_fraser">West Fraser</string>
+    <string name="disposition_holder">Disposition Holder</string>
+    <string name="_5061">5061</string>
+    <string name="_269206">269206</string>
+    <string name="_130_logs">130 logs</string>
+    <string name="may_2">May 2</string>
+    <string name="mill_no">Mill No.</string>
+    <string name="fma8800025">FMA8800025</string>
+    <string name="disposition">Disposition</string>
+    <string name="_2019_04_01">2019-04-01</string>
+    <string name="date_weighed">Date weighed</string>
+    <string name="_40420">40420</string>
+    <string name="net_weight_kg">Net Weight(KG)</string>
 </resources>

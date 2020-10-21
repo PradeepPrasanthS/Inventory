@@ -7,9 +7,9 @@
     tools:context=".ui.LoadsFragment">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_margin="20dp"
         android:id="@+id/loadsList"
         android:layout_width="match_parent"
+        android:layout_marginBottom="70dp"
         android:layout_height="match_parent" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
