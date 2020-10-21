@@ -1,0 +1,12 @@
+<resources>
+    <style name="Theme.Inventory" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#28af4e</item>
+        <item name="colorPrimaryVariant">#3f7c55</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <style name="NoActionBar" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

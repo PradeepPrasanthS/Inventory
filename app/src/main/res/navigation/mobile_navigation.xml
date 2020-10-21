@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:label="@string/title_dashboard"
+        android:name="com.pradeep.inventory.ui.DashboardFragment"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.pradeep.inventory.ui.AddLoadsFragment"
+        android:label="@string/title_add_load"
+        tools:layout="@layout/fragment_add_load" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.pradeep.inventory.ui.LoadsFragment"
+        android:label="@string/title_loads"
+        tools:layout="@layout/fragment_loads" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.pradeep.inventory.ui.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
